@@ -1,0 +1,83 @@
+body {
+  /*font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  /*font-size: 1.5em;*/
+}
+
+
+a {
+  color: black;
+}
+
+
+p, h4, h5{ font-family: 'the_sans_mono_condensed-Rg'; }
+
+
+
+.view-prayer
+{
+    color: #483D41;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.view-prayer:hover
+{
+    background-color: #222729;
+    color: white;
+
+}
+
+/* Home component */
+.pillars-link
+{
+    border: 2px #FF6C45 solid;
+    background-color: #262626;
+    color: #FF6C45;
+    font-family: 'nexa_rust_sansblack';
+}
+
+/* world component in Home component */
+.explore-container
+{   text-align: center;
+    padding: 1% 15px 4% 15px;
+    background-color: #222729;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.explore-container img
+{   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore-container a
+{   /*background-color: #A19992; #F2F2F2;*/
+    border-radius: 0;
+    border: 2px #A19992 solid;
+    /*color: #A19992;*/
+    color: #FF6C45;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 4%;
+}
+
+.explore-container a:hover
+{   background-color: #A19992;
+    color: #F2F2F2;
+}
+
+.col-sm-4.ul{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-family: 'the_sans_mono_condensed-Rg';
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
