@@ -6,14 +6,6 @@ router.get('*', function(req, res, next) {
     res.render('index', { title: 'Express' });
 });
 
-router.get('/all-posts', (req, res, next) =>{
-    rootRef.child('Users').once('value', function(snapshot){
-        let obj = snapshot.val();
-        res.send(Object.keys(obj).map(k => obj[k]));
-    });
-});
-
-
 
 /* frunction to generate checksum
 const checksum = (str, algorithm, encoding) =>
